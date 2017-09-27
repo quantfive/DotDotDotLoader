@@ -1,7 +1,7 @@
 {
   "name": "react-dotdotdotloader",
   "version": "0.1.1",
-  "private": true,
+  "private": false,
   "dependencies": {
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
