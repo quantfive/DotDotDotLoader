@@ -1,6 +1,6 @@
 {
-  "name": "dotdotdotloader",
-  "version": "0.1.0",
+  "name": "react-dotdotdotloader",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.2",
