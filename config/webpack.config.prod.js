@@ -52,6 +52,8 @@ const extractTextPluginOptions = shouldUseRelativeAssetPaths
 module.exports = {
   // Don't attempt to continue if there are any errors.
   bail: true,
+  library: 'DotDotDotLoader'
+  libraryTarget: 'umd',
   // We generate sourcemaps in production. This is slow but gives good results.
   // You can exclude the *.map files from the build during deployment.
   devtool: shouldUseSourceMap ? 'source-map' : false,
@@ -168,8 +170,8 @@ module.exports = {
           {
             test: /\.css$/,
             loader: ExtractTextPlugin.extract(
-              ‘style’,
-              ‘css?importLoaders=1&modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss’,
+              'style',
+              'css?importLoaders=1&modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss',
               extractTextPluginOptions
             )
           },
