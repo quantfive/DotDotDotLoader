@@ -53,7 +53,7 @@ Option|Type	|  Description
 ## Customize Loader
 react-dotdotdotloader will inherit any styles from its parent container. This allows the loader to have the same style as other components in the same contianer or have its own style. Use the same css properties as if you were changing text styling. See demo for example.
 
-1. No text styling
+1 . No text styling
 
  HTML
  ```html
@@ -74,7 +74,7 @@ react-dotdotdotloader will inherit any styles from its parent container. This al
 	margin-bottom: 50px;
 }
  ```
-2. Bigger font and red color
+2 . Bigger font and red color
 
  HTML
  ```html
@@ -98,7 +98,7 @@ react-dotdotdotloader will inherit any styles from its parent container. This al
 }
  ```
 
-3. dotdotdotloader can have its own styles
+3 . dotdotdotloader can have its own styles
 
  HTML
  ```html
