@@ -70,39 +70,39 @@ Option|Type	|  Description
 
  CSS
  ```css
- 	.noStyle {
-	  margin-bottom: 50px;
-	}
+.noStyle {
+	margin-bottom: 50px;
+}
  ```
  2. Bigger font and red color
 
  HTML
  ```html
-	<div className="redStyle">
-	  Bigger font and red font color
-	  <DotDotDotLoader
-	    amount={this.state.amount}
-	    interval={this.state.interval}
-	    repeat={this.state.repeat}
-	    show={this.state.show}
-	  />
-	</div>
+<div className="redStyle">
+  Bigger font and red font color
+  <DotDotDotLoader
+    amount={this.state.amount}
+    interval={this.state.interval}
+    repeat={this.state.repeat}
+    show={this.state.show}
+  />
+</div>
  ```
 
  CSS
  ```css
- 	.redStyle {
-	  margin-bottom: 50px;
-	  font-size: 20px;
-	  color: #e53030;
-	}
+.redStyle {
+	margin-bottom: 50px;
+	font-size: 20px;
+	color: #e53030;
+}
  ```
 
  3. dotdotdotloader can have its own styles
 
  HTML
  ```html
- 	<div className="greenStyle">
+ <div className="greenStyle">
     dotdotdotloader can have its own styles
     <span className="dotStyle">
       <DotDotDotLoader
@@ -117,11 +117,11 @@ Option|Type	|  Description
 
  CSS
  ```css
- 	.greenStyle {
-	  color: #63ba1b;
-	}
-	.dotStyle {
-	  font-size: 100px;
-	  color: #a22dbc;
-	}
+.greenStyle {
+	color: #63ba1b;
+}
+.dotStyle {
+	font-size: 100px;
+	color: #a22dbc;
+}
  ```
