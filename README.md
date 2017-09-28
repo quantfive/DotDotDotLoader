@@ -1,5 +1,5 @@
 ## react-dotdotdotloader
-[![Version](http://img.shields.io/npm/v/react-tooltip.svg)](https://www.npmjs.com/package/react-dotdotdotloader)
+[![Version](http://img.shields.io/npm/v/react-dotdotdotloader.svg)](https://www.npmjs.com/package/react-dotdotdotloader)
 [![npm download][download-image]][download-url]
 
 [download-image]: https://img.shields.io/npm/dm/react-dotdotdotloader.svg?style=flat-square
