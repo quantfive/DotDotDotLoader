@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-//import { DotDotDotLoader } from 'react-dotdotdotloader';
 import DotDotDotLoader from './node_modules/components/DotDotDotLoader/DotDotDotLoader'
 
 class App extends React.Component {

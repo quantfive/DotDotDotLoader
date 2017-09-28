@@ -32,6 +32,7 @@ import { DotDotDotLoader } from 'react-dotdotdotloader'
 ```
 
 3 . Customize options
+
 ```js
 <DotDotDotLoader 
   amount={3}
@@ -48,3 +49,79 @@ Option|Type	|  Description
  show	|  Boolean  | `True` will show the loader and `false` will hide the loader. (Required to show and hide loader)
  interval |  Integer  | The number of ms between each dot appearing. (Default is 500)
  repeat |  Boolean  | `True` will have the loader loop from one dot to the `amount`. If `false` loader will not loop and ignore `amount`, adding dots indefinitely until `show` is `false` (Default is true)
+
+ ## Customize Loader
+ react-dotdotdotloader will inherit any styles from its parent container. This allows the loader to have the same style as other components in the same contianer. Use the same css properties as if you were changing text styling. See demo for example.
+
+ 1. No text styling
+
+ HTML
+ ```html
+ <div className="noStyle">
+  No text styles
+  <DotDotDotLoader
+    amount={this.state.amount}
+    interval={this.state.interval}
+    repeat={this.state.repeat}
+    show={this.state.show}
+  />
+ </div>
+ ```
+
+ CSS
+ ```css
+ 	.noStyle {
+	  margin-bottom: 50px;
+	}
+ ```
+ 2. Bigger font and red color
+
+ HTML
+ ```html
+	<div className="redStyle">
+	  Bigger font and red font color
+	  <DotDotDotLoader
+	    amount={this.state.amount}
+	    interval={this.state.interval}
+	    repeat={this.state.repeat}
+	    show={this.state.show}
+	  />
+	</div>
+ ```
+
+ CSS
+ ```css
+ 	.redStyle {
+	  margin-bottom: 50px;
+	  font-size: 20px;
+	  color: #e53030;
+	}
+ ```
+
+ 3. dotdotdotloader can have its own styles
+
+ HTML
+ ```html
+ 	<div className="greenStyle">
+    dotdotdotloader can have its own styles
+    <span className="dotStyle">
+      <DotDotDotLoader
+        amount={this.state.amount}
+        interval={this.state.interval}
+        repeat={this.state.repeat}
+        show={this.state.show}
+      />
+    </span>
+  </div>
+ ```
+
+ CSS
+ ```css
+ 	.greenStyle {
+	  color: #63ba1b;
+	}
+	.dotStyle {
+	  font-size: 100px;
+	  color: #a22dbc;
+	}
+ ```
