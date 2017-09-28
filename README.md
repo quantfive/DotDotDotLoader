@@ -50,10 +50,10 @@ Option|Type	|  Description
  interval |  Integer  | The number of ms between each dot appearing. (Default is 500)
  repeat |  Boolean  | `True` will have the loader loop from one dot to the `amount`. If `false` loader will not loop and ignore `amount`, adding dots indefinitely until `show` is `false` (Default is true)
 
- ## Customize Loader
- react-dotdotdotloader will inherit any styles from its parent container. This allows the loader to have the same style as other components in the same contianer. Use the same css properties as if you were changing text styling. See demo for example.
+## Customize Loader
+react-dotdotdotloader will inherit any styles from its parent container. This allows the loader to have the same style as other components in the same contianer or have its own style. Use the same css properties as if you were changing text styling. See demo for example.
 
- 1. No text styling
+1. No text styling
 
  HTML
  ```html
@@ -74,7 +74,7 @@ Option|Type	|  Description
 	margin-bottom: 50px;
 }
  ```
- 2. Bigger font and red color
+2. Bigger font and red color
 
  HTML
  ```html
@@ -98,7 +98,7 @@ Option|Type	|  Description
 }
  ```
 
- 3. dotdotdotloader can have its own styles
+3. dotdotdotloader can have its own styles
 
  HTML
  ```html
