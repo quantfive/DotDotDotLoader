@@ -46,5 +46,5 @@ Option|Type	|  Description
 |:---|:---|:---
  amount	|  Integer  | Max number of dots to display. (Default is 3)
  show	|  Boolean  | `True` will show the loader and `false` will hide the loader. (Required to show and hide loader)
- interval |  Integer  | the number of `ms` between each dot appearing. (Default is 500)
- repeat |  Boolean  | `True` will have the loader loop from one dot to the `amount`. If `false` loader will not loop and ignore `amount`, adding dots indefinitely until 'show' is 'false' (Default is true)
+ interval |  Integer  | The number of ms between each dot appearing. (Default is 500)
+ repeat |  Boolean  | `True` will have the loader loop from one dot to the `amount`. If `false` loader will not loop and ignore `amount`, adding dots indefinitely until `show` is `false` (Default is true)
