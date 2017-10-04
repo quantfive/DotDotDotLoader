@@ -100,7 +100,6 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quantfive/DotDotDotLoader.git"
   },
   "keywords": [
     "react",
