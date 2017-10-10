@@ -9,6 +9,8 @@
 
 An ellipsis loader for React. You can set the time in between the next dot appears and the number of dots that appear.
 
+## Demo
+http://craiglu.react-dotdotdotloader.hellodeploy.com
 
 ## Installation
 ```sh
