@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import DotDotDotLoader from './node_modules/components/DotDotDotLoader/DotDotDotLoader'
+import Watermark from './Watermark';
+import DotDotDotLoader from './node_modules/components/DotDotDotLoader/DotDotDotLoader';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,8 +11,8 @@ class App extends React.Component {
     this.state = {
       amount: 3,
       interval: 500,
-      show: false,
-      repeat: false,
+      show: true,
+      repeat: true,
     }
   }
 
@@ -126,6 +127,7 @@ class App extends React.Component {
             </div>
           </div>
         </div>
+        <Watermark />
       </div>
     );
   }
