@@ -51,7 +51,7 @@ Option|Type	|  Description
  repeat |  Boolean  | `True` will have the loader loop from one dot to the `amount`. If `false` loader will not loop and ignore `amount`, adding dots indefinitely until `show` is `false` (Default is true)
 
 ## Styles
-react-dotdotdotloader will inherit any styles from its parent container. This allows the loader to have the same style as other components in the same contianer or have its own style. Use the same css properties as if you were changing text styling to change the look of the dots. See demo for example.
+react-dotdotdotloader will inherit any styles from its parent container. This allows the loader to have the same style as other components in the same contianer or have its own style. Use the same css properties as if you were changing text styling to change the look of the dots. See [live demo](http://craiglu.react-dotdotdotloader.hellodeploy.com/) for example.
 
 1 . No text styling
 
