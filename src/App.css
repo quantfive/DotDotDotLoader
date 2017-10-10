@@ -55,9 +55,9 @@
 .textContainer {
   border: 1px solid;
   width: 60%;
-  height: 500px;
   box-sizing: border-box;
   padding: 20px;
+  overflow-wrap: break-word;
   text-align: left;
   margin-bottom: 30px;
 }

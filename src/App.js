@@ -11,8 +11,8 @@ class App extends React.Component {
     this.state = {
       amount: 3,
       interval: 500,
-      show: false,
-      repeat: false,
+      show: true,
+      repeat: true,
     }
   }
 
