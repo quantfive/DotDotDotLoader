@@ -76,6 +76,7 @@ class App extends React.Component {
                 <input 
                   type="checkbox"
                   id="repeat"
+                  checked={this.state.repeat}
                   value={this.state.repeat}
                   onChange={this.repeatOnChange}
                 />
@@ -87,6 +88,7 @@ class App extends React.Component {
               <label className="switch">
                 <input
                   type="checkbox"
+                  checked={this.state.show}
                   id="show"
                   value={this.state.show}
                   onChange={this.showOnChange}
