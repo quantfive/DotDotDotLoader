@@ -1,6 +1,6 @@
 {
   "name": "react-dotdotdotloader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "dependencies": {
     "autoprefixer": "7.1.2",
@@ -96,17 +96,20 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "description": "React dotdotdot loader or ellipsis loader",
   "main": "lib/index.js",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/quantfive/DotDotDotLoader.git"
   },
   "keywords": [
     "react",
     "dots",
-    "loader"
+    "loader",
+    "ellipsis",
+    "dotdotdot",
+    "..."
   ],
-  "homepage": "https://github.com/quantfive/DotDotDotLoader",
   "author": "Craig Lu <craig@quantfive.org> (https://github.com/CraigLu)",
   "license": "MIT",
   "bugs": {
