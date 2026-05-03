@@ -127,3 +127,4 @@ react-dotdotdotloader will inherit any styles from its parent container. This al
 	color: #a22dbc;
 }
  ```
+
