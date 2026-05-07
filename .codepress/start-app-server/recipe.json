@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "bootstrapped_at": "2026-05-07T00:45:00Z",
+  "origin": "bootstrap",
+  "repair_count": 0,
+  "dockerfile_path": "Dockerfile.codepress",
+  "port": 3000,
+  "validation_status_codes": [200, 301, 302, 404],
+  "input_checksums": {
+    "dockerfile": "2603f31de0d0f6b1",
+    "dependency_manifest": "dbbd64cf609208e3"
+  },
+  "system_packages": [],
+  "known_fixes": [],
+  "discovery_notes": "Node.js Express server serving a pre-built React demo app for the react-dotdotdotloader component library. The existing Dockerfile expects a pre-built /build directory but build/ is gitignored; Dockerfile.codepress runs the webpack build (npm run build) inside the image before serving with Express on port 3000. No service dependencies or secrets required."
+}
