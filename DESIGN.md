@@ -1,0 +1,1 @@
+# CodePress QA Design Guide\n\nMarker: design-md-deep-qa-56061f-1778886904\n\nUse crisp dashboard surfaces, dense tables, restrained controls, and visible provenance labels.\n
