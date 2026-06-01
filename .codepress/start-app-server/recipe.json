@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "bootstrapped_at": "2026-06-01T20:35:14Z",
+  "origin": "bootstrap",
+  "repair_count": 0,
+  "dockerfile_path": "Dockerfile.codepress",
+  "port": 3000,
+  "validation_status_codes": [200, 301, 302, 404],
+  "required_vault_keys": [],
+  "static_env_vars": {},
+  "input_checksums": {
+    "dockerfile": "72b71eb3a9779fb8",
+    "dependency_manifest": "dbbd64cf609208e3"
+  },
+  "system_packages": [],
+  "known_fixes": [
+    "Used npm install --legacy-peer-deps to handle old peer dependencies from 2017-era React/Babel/Webpack setup"
+  ],
+  "discovery_notes": "React 16 + Express 4 app. webpack build (node scripts/build.js) produces build/, then node server/index.js serves static files on port 3000. No service dependencies or secrets needed. Existing Dockerfile at root so wrote Dockerfile.codepress alongside it."
+}
