@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "bootstrapped_at": "2026-06-12T00:28:07Z",
+  "origin": "bootstrap",
+  "repair_count": 0,
+  "dockerfile_path": "Dockerfile.codepress",
+  "port": 3000,
+  "validation_status_codes": [200, 301, 302, 404],
+  "input_checksums": {
+    "dockerfile": "c16e4a34b70697d2",
+    "dependency_manifest": "dbbd64cf609208e3"
+  },
+  "system_packages": [],
+  "known_fixes": [
+    "Existing root Dockerfile copies a prebuilt build/ that is not in the repo — wrote Dockerfile.codepress that runs `yarn build` inside the image instead.",
+    "Pinned node:16-bullseye-slim — the legacy webpack 3 / babel 6 toolchain needs OpenSSL 1.1.1 (newer Node throws ERR_OSSL_EVP_UNSUPPORTED during the build).",
+    "The build context filter strips every directory named node_modules at any depth, so the app's src/node_modules component source never arrives via COPY — the Dockerfile reconstructs it from lib/ (the committed babel-compiled mirror, identical file tree) before `yarn build`."
+  ],
+  "discovery_notes": "Create React App demo (webpack 3 / babel 6, React 16) for the react-dotdotdotloader npm package. An Express server (server/index.js) serves the production build/ output on port 3000. The loader component lives under src/node_modules (legacy CRA module-resolution pattern); its compiled mirror is committed at lib/. No external services or secrets are required."
+}

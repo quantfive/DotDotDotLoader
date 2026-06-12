@@ -1,0 +1,19 @@
+# Exclude host-built node_modules trees from the build context, but KEEP the
+# repo's intentional source folder at src/node_modules (legacy CRA module-
+# resolution pattern — it holds the actual DotDotDotLoader component). The
+# negation rules re-include it after the broad exclusion.
+node_modules
+!src/node_modules
+!src/node_modules/**
+.git
+.github
+build
+coverage
+*.log
+.env
+.env.*
+!.env.example
+.claude
+.codepress
+.agents
+.codex
