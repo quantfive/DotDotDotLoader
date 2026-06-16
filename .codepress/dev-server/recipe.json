@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "bootstrapped_at": "2026-06-16T05:50:00Z",
+  "discovery_branch": "codepress/codepress/bootstrap-dev-server-artifacts-cd422ee1",
+  "frontends": [
+    {
+      "label": "main",
+      "working_dir": "",
+      "dockerfile_path": ".codepress/dev-server/Dockerfile.main",
+      "dev_command": "yarn start",
+      "framework": "cra",
+      "package_manager": "yarn",
+      "dev_port": 3000,
+      "system_packages": []
+    }
+  ]
+}
